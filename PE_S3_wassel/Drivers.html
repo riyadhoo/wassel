@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Driver.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <label ><img id="logo" src="wassel white 1.png"></label>
+            <ul>
+                <li><a href="Driver dashboard.html">Orders</a></li>
+                <li><a class="active" href="#">Drivers</a></li>
+                <li><a href="#">Delivery Status</a></li>
+                <li><a href="#">Navigation and Route</a></li>
+                <li><a href="#">Earnings Summary</a></li>
+                <li><a href="#">My account</a></li>
+                <li><a href="#">Log out</a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <a href="-home.html">View website</a>
+                <div class="lang_menu">
+                    <div class="selected_lang">
+                        English
+                    </div>
+                    <ul>
+                        <li><a href="">Arabic</a></li>
+                        <li><a href="">Frensh</a></li>
+                        <li><a href="">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <table id="drivers-table">
+              <thead>
+                <tr>
+                  <th>Image</th>
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th>Vehicule</th>
+                  <th>Total Hours</th>
+                  <th>Total Orders</th>
+                  <th>Total Revenue</th>
+                </tr>
+              </thead>
+              <tbody id="drivers-table-body">
+                <!-- Driver information will be populated here dynamically using JavaScript -->
+              </tbody>
+            </table>
+          </div>
+    </div>
+    <script src="Drivers.js"></script>
+</body>
+</html>
